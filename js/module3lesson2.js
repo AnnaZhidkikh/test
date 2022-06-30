@@ -58,10 +58,12 @@ const account = {
             amount: amountNumber,
             id: account.transactions.length + 1
         }
+    
        // console.log(transaction)
         return { error: null, data: transaction }
     
     },
+
 
     /*
     * Метод отвечающий за добавление суммы к балансу.
@@ -131,4 +133,4 @@ const account = {
 //     }
 //     return sum
 // },
-// };
+ };
